@@ -10,4 +10,4 @@ const RootNavigations = () => {
   )
 }
 
-export default RootNavigations
+export default RootNavigations;

@@ -4,7 +4,7 @@ import React from 'react'
 const Auth = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Text> index </Text>
     </View>
   )
 }

@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
   container:{
   flex:1, justifyContent:'space-between', alignItems:'center', paddingVertical:moderateScale(60),  
   }, 
-  
   header:{ 
   },  
   body:{ 

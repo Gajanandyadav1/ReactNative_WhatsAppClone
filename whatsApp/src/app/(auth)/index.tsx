@@ -32,13 +32,13 @@ const styles = StyleSheet.create({
   }, 
   fromtext:{
     fontSize:12, 
-    color:'#867373'
-
-
+    color:'#867373' 
   },
+  
   facebooktext:{
  fontSize:15,  
-  }  ,
+  },
+
   myimage:{
     width:moderateScale(90), 
     height:moderateScale(90), 

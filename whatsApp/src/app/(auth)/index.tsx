@@ -11,6 +11,7 @@ const Auth = () => {
       <Image source={imagePath.logo} style={styles.myimage}/>
     </View>
     <View  style={styles.footer}>
+      
       <Text style={styles.fromtext}>From</Text>
       <Text  style={styles.facebooktext}>facebook</Text>
     </View>

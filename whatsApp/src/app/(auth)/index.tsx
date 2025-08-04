@@ -11,7 +11,7 @@ const Auth = () => {
       <Image source={imagePath.logo} style={styles.myimage}/>
     </View>
     <View  style={styles.footer}>
-      
+
       <Text style={styles.fromtext}>From</Text>
       <Text  style={styles.facebooktext}>facebook</Text>
     </View>
@@ -25,12 +25,16 @@ const styles = StyleSheet.create({
   }, 
   header:{ 
   },  
+
   body:{ 
-    width:100
+    alignItems:'center' ,
+    gap:moderateScale(10),
   },
+
   footer:{
   alignItems:'center'
   }, 
+  
   fromtext:{
     fontSize:12, 
     color:'#867373' 

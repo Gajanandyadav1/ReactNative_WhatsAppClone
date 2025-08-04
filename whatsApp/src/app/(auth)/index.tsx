@@ -40,13 +40,15 @@ const styles = StyleSheet.create({
     color:'#867373' 
   },
   facebooktext:{
- fontSize:15,  
-  },
-
+  fontSize:15,  
+  }, 
   myimage:{
     width:moderateScale(90), 
     height:moderateScale(90), 
     boxSizing:'border-box'
   }
 })
+
+
+
 export default Auth   

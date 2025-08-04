@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
   footer:{
   alignItems:'center'
   }, 
-  
+
   fromtext:{
-    fontSize:12, 
+    fontSize:12,  
     color:'#867373' 
   },
   facebooktext:{

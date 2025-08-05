@@ -6,6 +6,7 @@ import { scale, verticalScale, moderateScale } from 'react-native-size-matters';
 const Auth = () => {
   return (
     <SafeAreaView  style={styles.container}> 
+      
     <View style={styles.header} ></View>
     <View style={styles.body}> 
       <Image source={imagePath.logo} style={styles.myimage}/>

@@ -7,6 +7,7 @@ const Auth = () => {
   const [isLoading, setIsLoading] = useState(true);
   return (
     <SafeAreaView  style={styles.container}> 
+      
     <View style={styles.header} ></View>
     <View style={styles.body} > 
       <Image source={imagePath.logo} style={styles.myimage} />

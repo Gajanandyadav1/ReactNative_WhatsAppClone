@@ -4,7 +4,7 @@
  const verify_otp = () => {
    return (
      <View>
-       <Text> verify_otp  </Text>
+       <Text> verify_otp</Text>
      </View>
    )
  }

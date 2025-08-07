@@ -6,10 +6,11 @@ SplashScreen.preventAutoHideAsync()
 const RootNavigations = () => {
 
 
-  const [isLoging, setisLoging] = useState(false) ;
+  const [isLoging, setisLoging] = useState(false);
 
   useEffect(()=>{
      SplashScreen.hideAsync()
+     
   },[])
   return (
    <>

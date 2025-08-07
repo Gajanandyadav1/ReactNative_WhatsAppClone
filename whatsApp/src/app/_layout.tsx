@@ -9,8 +9,7 @@ const RootNavigations = () => {
   const [isLoging, setisLoging] = useState(false);
 
   useEffect(()=>{
-     SplashScreen.hideAsync()
-     
+     SplashScreen.hideAsync() 
   },[])
   return (
    <>

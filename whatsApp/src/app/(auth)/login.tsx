@@ -4,9 +4,9 @@ import React from 'react'
 const login = () => {
   return (
     <View>
-      <Text>login</Text>
+      <Text>login page</Text>
     </View>
   )
 }
 
-export default login
+export default login 

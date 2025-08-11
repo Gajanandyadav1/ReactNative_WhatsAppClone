@@ -21,7 +21,7 @@ const Auth = () => {
         ) : (
           <>
           <Text style={styles.fromtext}> From </Text>
-      <Text  style={styles.facebooktext}>facebook</Text>
+      <Text  style={styles.facebooktext}> Facebook </Text>
       </>
         )
       }

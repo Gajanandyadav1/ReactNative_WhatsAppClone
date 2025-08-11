@@ -4,26 +4,23 @@ import imagePath from '@/src/constants/imagePath'
 import { scale, verticalScale, moderateScale } from 'react-native-size-matters';
 
 const Auth = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true) ;
   return (
     <SafeAreaView  style={styles.container}> 
-      
     <View style={styles.header} ></View>
     <View style={styles.body} > 
       <Image source={imagePath.logo} style={styles.myimage} />
-
       <Text style={styles.whatsapp_text}>WhatsApp</Text>
     </View>
-    <View  style={styles.footer}>
-
+    <View  style={styles.footer}> 
       {
         isLoading ? (
           <> 
-          <ActivityIndicator size={moderateScale(50)} color="#0ccc83" />
+          <ActivityIndicator size={moderateScale(50)}  color="#0ccc83" />
           </>
         ) : (
           <>
-          <Text style={styles.fromtext}>From</Text>
+          <Text style={styles.fromtext}> From</Text>
       <Text  style={styles.facebooktext}>facebook</Text>
       </>
         )

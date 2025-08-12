@@ -13,11 +13,11 @@ const Auth = () => {
       <Text style={styles.whatsapp_text}>WhatsApp</Text>
     </View>
     <View  style={styles.footer}> 
-      
+
       {
         isLoading ? (
           <> 
-          <ActivityIndicator size={moderateScale(50)}  color="#0ccc83" />
+          <ActivityIndicator size={moderateScale(50)}   color="#0ccc83" />
           </>
         ) : (
           <>

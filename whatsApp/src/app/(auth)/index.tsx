@@ -20,7 +20,12 @@ const Auth = () => {
   }
 
   useEffect(()=>{
-    setTimeout(() => {  loadingTimeout()  }, 2000);
+  const timeout =  setTimeout(() => {  loadingTimeout()  }, 2000);
+
+
+  return () => {
+    clearTimeout(timeout);
+  }
   },[])
 
 

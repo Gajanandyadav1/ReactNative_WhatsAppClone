@@ -1,10 +1,33 @@
 import { View, Text, StyleSheet, SafeAreaView, Image, ActivityIndicator } from 'react-native'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import imagePath from '@/src/constants/imagePath'
 import { scale, verticalScale, moderateScale } from 'react-native-size-matters';
+import { router } from 'expo-router';
 
 const Auth = () => {
-  const [isLoading, setIsLoading] = useState(true) ;
+  const [isLoading, setIsLoading] = useState(false) ;
+
+
+
+  let navigate_to_welcome = () => {
+    router.push('/(auth)/terms_agree')
+  }
+  let loadingTimeout = ()=>{
+    setIsLoading(true)
+    setTimeout(() => { 
+        navigate_to_welcome() 
+    }, 2000);
+  }
+
+  useEffect(()=>{
+    setTimeout(() => { 
+      setIsLoading(true)
+      loadingTimeout()
+    }, 2000);
+  },[])
+
+
+  
   return (
     <SafeAreaView  style={styles.container}> 
     <View style={styles.header} ></View>
@@ -18,6 +41,7 @@ const Auth = () => {
         isLoading ? (
           <> 
           <ActivityIndicator  size={moderateScale(50)}   color="#0ccc83" />
+          <Text style={styles.loading_text}>Loading...</Text>
           </>
         ) : (
           <>
@@ -46,7 +70,8 @@ const styles = StyleSheet.create({
   },
 
   footer:{
-  alignItems:'center'
+  alignItems:'center',
+ 
   }, 
   fromtext:{
     fontSize:12,  
@@ -64,6 +89,12 @@ const styles = StyleSheet.create({
     fontSize:moderateScale(20), 
     fontWeight:'bold', 
     color:'#000000'
+  },
+  loading_text:{
+    fontSize:moderateScale(20), 
+    color:'#0ccc83', 
+    marginTop:verticalScale(10),
+    fontWeight:'bold'
   }
 })
 

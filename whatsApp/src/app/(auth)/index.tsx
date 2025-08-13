@@ -17,7 +17,7 @@ const Auth = () => {
       {
         isLoading ? (
           <> 
-          <ActivityIndicator size={moderateScale(50)}   color="#0ccc83" />
+          <ActivityIndicator  size={moderateScale(50)}   color="#0ccc83" />
           </>
         ) : (
           <>

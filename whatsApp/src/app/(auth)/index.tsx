@@ -20,14 +20,11 @@ const Auth = () => {
   }
 
   useEffect(()=>{
-    setTimeout(() => { 
-      setIsLoading(true)
-      loadingTimeout()
-    }, 2000);
+    setTimeout(() => {  loadingTimeout()  }, 2000);
   },[])
 
 
-  
+
   return (
     <SafeAreaView  style={styles.container}> 
     <View style={styles.header} ></View>

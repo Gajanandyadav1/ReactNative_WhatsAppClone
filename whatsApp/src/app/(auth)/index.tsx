@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, SafeAreaView, Image, ActivityIndicator } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import  React, { useEffect, useState } from 'react'
 import imagePath from '@/src/constants/imagePath'
 import { scale, verticalScale, moderateScale } from 'react-native-size-matters';
 import { router } from 'expo-router';

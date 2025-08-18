@@ -10,6 +10,7 @@ const AuthStack = () => {
         <Stack.Screen  name="term_agree"/>
         <Stack.Screen  name="Login"/>
         <Stack.Screen  name="verify_otp"/>
+     
     </Stack>
   )
 }

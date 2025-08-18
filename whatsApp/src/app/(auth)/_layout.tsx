@@ -5,8 +5,7 @@ import { Stack } from 'expo-router'
 const AuthStack = () => {
   return (
     <Stack  screenOptions={{headerShown:false}}>  
-
-     
+ 
         <Stack.Screen  name="index"/>
         <Stack.Screen  name="term_agree"/>
         <Stack.Screen  name="Login"/>

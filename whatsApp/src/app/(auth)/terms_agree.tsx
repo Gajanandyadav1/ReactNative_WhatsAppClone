@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
     marginTop: moderateScale(10),
     textAlign: 'center', 
     
-
+    
+    
   },
   facebooktext: {
     fontSize: moderateScale(15),

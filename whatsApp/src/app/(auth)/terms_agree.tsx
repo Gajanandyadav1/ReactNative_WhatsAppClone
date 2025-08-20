@@ -4,7 +4,7 @@ import { moderateScale, verticalScale } from 'react-native-size-matters';
 
 const terms_agree = () => {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container} >
       <View style={styles.header}>
          <Text style={styles.whatsappText}>Welcome to Whatsapp</Text>
       </View>
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     textAlign: 'center', 
     
     
-    
+
   },
   facebooktext: {
     fontSize: moderateScale(15),

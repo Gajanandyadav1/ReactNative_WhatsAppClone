@@ -9,7 +9,7 @@ const terms_agree = () => {
          <Text style={styles.whatsappText}>Welcome to Whatsapp</Text>
       </View>
       <View style={styles.footer}>
-        <Text style={styles.fromtext}>From</Text>
+        <Text style={styles.fromtext}> From </Text>
         <Text style={styles.facebooktext}>Facebook</Text>
       </View>
     </SafeAreaView>

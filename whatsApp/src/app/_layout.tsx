@@ -15,8 +15,8 @@ const RootNavigations = () => {
    <>
    <Stack screenOptions={{headerShown:false}}/>
    {
-    
-       isLoging  ?   (<Redirect href={"/(main)"}/>)  :  (<Redirect href={"/(auth)"}/>)
+
+       isLoging  ?  (<Redirect href={"/(main)"}/>)  :  (<Redirect href={"/(auth)"}/>)
    }
     
    </>

@@ -12,6 +12,7 @@ const terms_agree = () => {
         <Text style={styles.fromtext}> From </Text>
         <Text style={styles.facebooktext}>Facebook</Text>
       </View>
+      
     </SafeAreaView>
   );
 };

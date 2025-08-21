@@ -5,7 +5,9 @@ import { Stack } from 'expo-router'
 const MainStack = () => {
   return (
     <Stack>
-      <Text>MainStack _layout</Text>
+
+       <Text>MainStack _layout</Text>
+       
     </Stack>
   )
 }

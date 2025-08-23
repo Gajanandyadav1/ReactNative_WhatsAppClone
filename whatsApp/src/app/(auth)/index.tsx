@@ -6,23 +6,22 @@ import { router } from 'expo-router';
 
 const Auth = () => {
   const [isLoading, setIsLoading] = useState(false) ;
-
-
-
+ 
   let navigate_to_welcome = () => {
+ 
     router.push('/(auth)/terms_agree')
+
   }
   let loadingTimeout = ()=>{
     setIsLoading(true)
     setTimeout(() => { 
         navigate_to_welcome() 
-    }, 2000);
+    }, 2000); 
   }
 
   useEffect(()=>{
   const timeout =  setTimeout(() => {  loadingTimeout()  }, 2000);
-
-
+ 
   return () => {
     clearTimeout(timeout);
   }
@@ -43,7 +42,7 @@ const Auth = () => {
         isLoading ? (
           <> 
           <ActivityIndicator  size={moderateScale(50)}   color="#0ccc83" />
-          <Text style={styles.loading_text}>Loading...</Text>
+          <Text style={styles.loading_text}>Loading... </Text>
           </>
         ) : (
           <>
@@ -99,7 +98,5 @@ const styles = StyleSheet.create({
     fontWeight:'bold'
   }
 })
-
-
-
+ 
 export default Auth   

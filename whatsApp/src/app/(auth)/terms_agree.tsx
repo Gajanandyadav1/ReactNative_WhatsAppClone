@@ -12,7 +12,7 @@ const terms_agree = () => {
     router.push('/(auth)/login')
   }
   return (
-    <SafeAreaView style={styles.container} >
+    <SafeAreaView style={styles.container}>
       <View style={styles.header}>
          <Text style={styles.whatsappText}>Welcome to Whatsapp</Text>
          <Image source={imagePath.welcome}  style={styles.images} resizeMode='contain'/>

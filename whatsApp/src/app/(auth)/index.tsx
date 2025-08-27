@@ -36,7 +36,7 @@ const Auth = () => {
       <Image source={imagePath.logo} style={styles.myimage} />
       <Text style={styles.whatsapp_text}>WhatsApp</Text>
     </View>
-    
+
     <View  style={styles.footer}> 
 
       {
@@ -48,8 +48,8 @@ const Auth = () => {
         ) : (
           <>
           <Text style={styles.fromtext}> From   </Text>
-      <Text  style={styles.facebooktext}> Facebook </Text>
-      </>
+            <Text  style={styles.facebooktext}> Facebook </Text>
+            </>
         )
       }
 

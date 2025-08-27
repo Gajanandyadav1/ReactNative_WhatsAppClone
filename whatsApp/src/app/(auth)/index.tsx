@@ -36,6 +36,7 @@ const Auth = () => {
       <Image source={imagePath.logo} style={styles.myimage} />
       <Text style={styles.whatsapp_text}>WhatsApp</Text>
     </View>
+    
     <View  style={styles.footer}> 
 
       {

@@ -14,8 +14,8 @@ const terms_agree = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-         <Text style={styles.whatsappText}>Welcome to Whatsapp</Text>
-         <Image source={imagePath.welcome}  style={styles.images} resizeMode='contain'/>
+         <Text style={styles.whatsappText}> Welcome to Whatsapp  </Text>
+         <Image source={imagePath.welcome} style={styles.images} resizeMode='contain'/>
 
          <View>
           <Text style={styles.description_text}>Read our <Text style={styles.link_text}> Privacy Policy.</Text> Tap “Agree and continue” to accept the <Text style={styles.link_text}> Teams of Service </Text></Text>

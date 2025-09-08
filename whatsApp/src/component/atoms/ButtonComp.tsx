@@ -19,8 +19,7 @@ export default ButtonComp
 const styles = StyleSheet.create({
     button_container:{
         backgroundColor: '#00a884', 
-         padding:13, 
-      
+         padding:13,  
          borderRadius:10, 
          width:'100%'
 

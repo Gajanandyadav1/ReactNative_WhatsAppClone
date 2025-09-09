@@ -1,5 +1,5 @@
   import { View, Text } from 'react-native'
-import React, { useEffect, useState } from 'react'
+  import React, { useEffect, useState } from 'react'
   import { Redirect, SplashScreen, Stack } from 'expo-router'
 
 SplashScreen.preventAutoHideAsync()

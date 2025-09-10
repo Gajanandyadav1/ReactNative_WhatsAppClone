@@ -8,10 +8,7 @@ const ButtonComp = ({title, onPress }) =>  {
    <TouchableOpacity style={styles.button_container} activeOpacity={0.7} onPress={onPress}>
     
    
-     <Text style={styles.button_text} >   {title}  </Text>
-
-     
-     
+     <Text style={styles.button_text} >   {title}  </Text> 
      
   </TouchableOpacity>
 

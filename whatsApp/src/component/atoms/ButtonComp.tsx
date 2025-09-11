@@ -5,9 +5,7 @@ import { moderateScale } from 'react-native-size-matters'
 const ButtonComp = ({title, onPress }) =>  {
   return (
    
-   <TouchableOpacity style={styles.button_container} activeOpacity={0.7} onPress={onPress}>
-    
-   
+   <TouchableOpacity style={styles.button_container} activeOpacity={0.7} onPress={onPress}> 
      <Text style={styles.button_text} >   {title}  </Text> 
      
   </TouchableOpacity>

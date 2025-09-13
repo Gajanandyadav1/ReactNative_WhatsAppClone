@@ -1,4 +1,4 @@
-import { Button, SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+ import { Button, SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { moderateScale } from 'react-native-size-matters'
 

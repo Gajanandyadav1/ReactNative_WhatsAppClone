@@ -9,7 +9,8 @@ const ButtonComp = ({title, onPress }) =>  {
       <Text style={styles.button_text} >   {title}  </Text>  
   </TouchableOpacity>
 
-  )
+  )   
+ 
 }
 
 export default ButtonComp
